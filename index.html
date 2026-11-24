@@ -111,7 +111,11 @@
    這裡填 LIFF ID（建好 LIFF app 後改這一行再上傳）
    沒填時，可在頁面上輸入，或網址帶 ?liff=LIFF_ID
    ============================================================ */
-const LIFF_ID = 'YOUR_LIFF_ID';
+const LIFF_ID = '2012781362-DjYOc2wg';
+
+// LINE 內建瀏覽器（在聊天室點網址開的）不能呼叫 liff.login()，會跳「無法正常執行」，要改從 liff.line.me 開
+const IN_LINE_BROWSER = / Line\//i.test(navigator.userAgent);
+function goLiffUrl(id){ location.replace('https://liff.line.me/' + id); }
 
 const LS_KEY = 'setup.liffId';
 const $ = id => document.getElementById(id);
@@ -217,6 +221,11 @@ async function start(){
   STATE.sdk = liff.getVersion();
 
   if (!liff.isLoggedIn()) {
+    if (IN_LINE_BROWSER && !STATE.inClient) {
+      setStatus('正在改用 LINE 的 LIFF 網址開啟…', 'warn');
+      goLiffUrl(liffId);
+      return;
+    }
     setStatus('LIFF 已啟動，還沒登入。', 'warn');
     show('loginCard');
     return;
@@ -272,7 +281,10 @@ $('saveLiff').onclick = () => {
   try { localStorage.setItem(LS_KEY, v); } catch(e) {}
   location.href = endpoint + '?liff=' + encodeURIComponent(v);
 };
-$('loginBtn').onclick = () => liff.login({ redirectUri: endpoint });
+$('loginBtn').onclick = () => {
+  if (IN_LINE_BROWSER && !liff.isInClient()) { goLiffUrl(STATE.liffId); return; }
+  liff.login({ redirectUri: endpoint });
+};
 $('copyUid').onclick = () => copy(STATE.userId);
 $('copyMembers').onclick = () => copy($('membersJson').value);
 $('dlMembers').onclick = () => {
