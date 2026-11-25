@@ -3,6 +3,6 @@
     {"uid":"Ua747221d45e4789cfbf94c08bbbe5228","name":"系統管理者","roles":[],"admin":"owner","sysadmin":true},
     {"uid":"U88388146ab2ac9461ca30341d45bd06e","name":"小朱","roles":[],"admin":"owner"},
     {"uid":"Ua747221d45e4789cfbf94c08bbbe52281","name":"江先生","roles":["guest"],"test":true},
-    {"uid":"Ua747221d45e4789cfbf94c08bbbe52282","roles":["applicant"],"apply":"teacher","stage":"applied","test":true}
+    {"uid":"Ua747221d45e4789cfbf94c08bbbe52282","roles":["applicant"],"apply":"teacher","stage":"hired","test":true}
   ]
 }
