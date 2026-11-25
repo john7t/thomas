@@ -1,8 +1,32 @@
 {
   "members": [
     {"uid":"Ua747221d45e4789cfbf94c08bbbe5228","name":"系統管理者","roles":[],"admin":"owner","sysadmin":true},
-    {"uid":"U88388146ab2ac9461ca30341d45bd06e","name":"小朱","roles":[],"admin":"owner"},
+    {"uid":"U88388146ab2ac9461ca30341d45bd06e","name":"小朱","roles":["teacher"],"admin":"owner","tc":"1","shift":"11:00-23:00","shiftH":"11:00-23:00","offWk":[],"sk":["dry","oil","foot","guasha","bagua"],"line":"https://lin.ee/FXIJoZg","ig":"https://www.instagram.com/thomaschu411/"},
     {"uid":"Ua747221d45e4789cfbf94c08bbbe52281","name":"江先生","roles":["guest"],"test":true},
-    {"uid":"Ua747221d45e4789cfbf94c08bbbe52282","name":"江江","roles":["teacher"],"shift":"10:00-22:00","tc":"122","test":true}
+    {"uid":"Ua747221d45e4789cfbf94c08bbbe52282","name":"江江","roles":["teacher"],"shift":"10:00-22:00","tc":"122","test":true},
+    {"uid":"tc-2","name":"阿宏","roles":["teacher"],"tc":"2","shift":"19:30-23:00","shiftH":"11:00-23:00","offWk":[1],"sk":["dry","oil","guasha","bagua"],"line":"https://lin.ee/C5T7k0x","ig":"https://www.instagram.com/bignodad/"},
+    {"uid":"tc-3","name":"小鐵","roles":["teacher"],"tc":"3","shift":"","shiftH":"10:00-20:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/BILwnke","ig":"https://www.instagram.com/changmioe/"},
+    {"uid":"tc-4","name":"狼零","roles":["teacher"],"tc":"4","shift":"17:00-20:00","shiftH":"09:00-20:00","offWk":[],"sk":["dry","oil","guasha","bagua","wax"],"line":"https://lin.ee/UsQcmCm","ig":"https://www.instagram.com/nekowolfzero/"},
+    {"uid":"tc-5","name":"波波","roles":["teacher"],"tc":"5","shift":"19:00-22:00","shiftH":"10:00-22:00","offWk":[],"sk":["dry","oil","guasha","bagua"],"line":"https://lin.ee/Urmrf0X","ig":"https://www.instagram.com/bobo_kuma/"},
+    {"uid":"tc-7","name":"熊柴犬","roles":["teacher"],"tc":"7","shift":"16:30-22:00","shiftH":"16:30-22:00","offWk":[],"sk":["dry","oil","guasha","bagua","erzhu"],"line":"https://lin.ee/Ai3v1gR","ig":"https://www.instagram.com/bearshiba/"},
+    {"uid":"tc-8","name":"威爾","roles":["teacher"],"tc":"8","shift":"19:00-20:00","shiftH":"09:00-23:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/alBtdSa","ig":"https://www.instagram.com/katsudon1983/"},
+    {"uid":"tc-9","name":"老爹","roles":["teacher"],"tc":"9","shift":"17:00-22:00","shiftH":"17:00-22:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/zSFFO1F","ig":"https://www.facebook.com/joseph.lin.5"},
+    {"uid":"tc-10","name":"馬克","roles":["teacher"],"tc":"10","shift":"09:00-22:00","shiftH":"09:00-22:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/3j1hlx6","ig":"https://www.instagram.com/mark_0320/"},
+    {"uid":"tc-12","name":"白白","roles":["teacher"],"tc":"12","shift":"12:00-22:00","shiftH":"12:00-22:00","offWk":[],"sk":["dry","oil","guasha","bagua","wax"],"line":"https://lin.ee/LfFZFXo","ig":"https://www.instagram.com/bear_whiter/"},
+    {"uid":"tc-14","name":"小杰","roles":["teacher"],"tc":"14","shift":"18:00-20:30","shiftH":"18:00-20:30","offWk":[],"sk":["dry","oil","guasha","bagua"],"line":"https://lin.ee/oZTpgPL","ig":"https://www.instagram.com/xiaoxiong8548/"},
+    {"uid":"tc-15","name":"熊逸","roles":["teacher"],"tc":"15","shift":"09:00-23:00","shiftH":"09:00-23:00","offWk":[],"sk":["dry","oil","foot","guasha","bagua"],"line":"https://lin.ee/3j1hlx6","ig":"https://www.facebook.com/taiwanjay168"},
+    {"uid":"tc-16","name":"小水怪","roles":["teacher"],"tc":"16","shift":"19:00-20:00","shiftH":"12:00-20:00","offWk":[],"sk":["dry","oil","guasha","bagua"],"line":"https://lin.ee/us63jTL","ig":"https://www.instagram.com/aching0104/"},
+    {"uid":"tc-18","name":"布布","roles":["teacher"],"tc":"18","shift":"09:00-12:00","shiftH":"09:00-12:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/Yf4WJ0p","ig":"https://www.facebook.com/chiaming.tang.1"},
+    {"uid":"tc-19","name":"丁丁","roles":["teacher"],"tc":"19","shift":"09:00-23:00","shiftH":"09:00-23:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/Yf4WJ0p","ig":"https://www.instagram.com/twtiinn/"},
+    {"uid":"tc-20","name":"武穆斯","roles":["teacher"],"tc":"20","shift":"14:00-20:00","shiftH":"14:00-20:00","offWk":[],"sk":["dry","oil"],"line":"https://line.me/R/ti/p/@436mkshw","ig":"https://www.instagram.com/0826.0606/"},
+    {"uid":"tc-21","name":"克里斯","roles":["teacher"],"tc":"21","shift":"14:00-20:00","shiftH":"14:00-20:00","offWk":[],"sk":["dry","oil"],"line":"https://line.me/R/ti/p/@705bskeh","ig":"https://www.instagram.com/0826.0606/"},
+    {"uid":"tc-22","name":"理查","roles":["teacher"],"tc":"22","shift":"13:00-21:00","shiftH":"13:00-21:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/3j1hlx6","ig":"https://www.facebook.com/profile.php?id=61577699267217"},
+    {"uid":"tc-23","name":"蓋瑞","roles":["teacher"],"tc":"23","shift":"09:00-23:00","shiftH":"09:00-23:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/nivKWqs","ig":"https://www.instagram.com/sambra5111/"},
+    {"uid":"tc-24","name":"辛巴","roles":["teacher"],"tc":"24","shift":"09:00-12:00","shiftH":"09:00-23:00","offWk":[],"sk":["dry","oil","guasha","bagua"],"line":"https://lin.ee/L7LOvMW","ig":"https://www.instagram.com/zhenpeng_zhong"},
+    {"uid":"tc-28","name":"阿緯","roles":["teacher"],"tc":"28","shift":"09:00-22:00","shiftH":"09:00-22:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/HVUWtmU"},
+    {"uid":"tc-29","name":"巴德","roles":["teacher"],"tc":"29","shift":"","shiftH":"","offWk":[],"sk":["dry","oil","wax"],"nb":1,"line":"https://lin.ee/mNpkEVl","ig":"https://www.instagram.com/chrisdingdingyo"},
+    {"uid":"tc-30","name":"瑞瑞","roles":["teacher"],"tc":"30","shift":"15:00-23:00","shiftH":"15:00-23:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/0D6PUor"},
+    {"uid":"tc-31","name":"伊康","roles":["teacher"],"tc":"31","shift":"","shiftH":"","offWk":[],"sk":["wax"],"nb":1,"line":"https://lin.ee/Y0PvPnt","ig":"https://www.instagram.com/kunch0715"},
+    {"uid":"tc-32","name":"阿魯","roles":["teacher"],"tc":"32","shift":"19:00-22:00","shiftH":"09:00-23:00","offWk":[],"sk":["dry","oil"],"line":"https://lin.ee/SVjRJlO","ig":"https://www.facebook.com/share/1Gf55PLUVj/"}
   ]
 }
